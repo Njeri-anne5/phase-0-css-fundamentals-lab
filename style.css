@@ -5,8 +5,34 @@ body {
 }
 
 header{
-  align-content: center;
+    text-align: center;
 }
-header{
+
+
+figcaption{
+    font-size: smaller;
+    text-align: center;
+}
+a:link{
+    padding-left: 10px;
+    padding-right: 10px;
+    color: blue;
+}
+#featured-property{
+    width: auto;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#featured-property.p{
+    width: 80px;
+}
+#details>div{
+    width: 25%;
+    padding-bottom: 10px;
+    float: left;
+    
+    text-align: center;
+    background-color: red;
 
 }
